@@ -7,3 +7,7 @@ import '../scss/main.scss';
 /* place your code below */
 
 console.log('HELLO 🚀')
+
+const glassCounter = document.querySelector(`glass--counter__js`);
+const buttonAdd = document.querySelector(`button--add__js`)
+const buttonRemove = document.querySelector(`button--remove__js`)
