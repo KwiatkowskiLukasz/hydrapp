@@ -27,7 +27,7 @@ if (localStorageValue) {
 
 
 buttonAdd.addEventListener(`click`, () =>{
-   currentGlassCounter = currentGlassCounter +1;
+   currentGlassCounter++;
    glassCounter.innerHTML = currentGlassCounter;
    localStorage.setItem(key, currentGlassCounter);
 });
